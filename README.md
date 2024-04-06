@@ -1,2 +1,2 @@
 # pizzaria-bootstrap
-Atividade do módulo de Front End do curso de desenvolvimento em Python do SENAC
+Segunda atividade do módulo de front end do curso de programação em python do Senac
