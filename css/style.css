@@ -1,3 +1,14 @@
+/*-------Corpo--------*/
+body {
+    background-color: #D3B786;
+}
+
+/*--------Menu--------*/
+.menu {
+    background-color: #770D15;
+}
+
+/*------Carousel-------*/
 .slides {
     height: 700px;
 }
@@ -6,7 +17,60 @@
     height: 700px;
 }
 
+/*---Container Imagens---*/
+.imagens h4{
+    margin-bottom: 0;
+}
+
 .imagens img {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
+}
+
+
+/*-------Footer--------*/
+#rodape {
+    background-color: #770D15;
+    color: #D3B786;
+}
+
+.footer-1 {
+    padding: 10px;
+}
+
+.menu-footer ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.menu-footer ul li a{
+    color: #D3B786;
+    text-decoration: none;
+    padding-left: 0;
+}
+
+.menu-footer, .redes-sociais, .unidades {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.redes-sociais p {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.redes-sociais img {
+    width: 30px;
+    height: 30px;
+}
+
+.unidades h3, p {
+    margin-bottom: 5px;
+}
+
+.desenvolvido {
+    text-align: center;
+    margin-bottom: 10px;
 }
