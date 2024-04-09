@@ -8,6 +8,7 @@ body {
     background-color: #770D15;
 }
 
+/* Home Page */
 /*------Carousel-------*/
 .slides {
     height: 700px;
@@ -17,14 +18,37 @@ body {
     height: 700px;
 }
 
+/* Pizzas e Massas */
 /*---Container Imagens---*/
-.imagens h4{
-    margin-bottom: 0;
+.imagens {
+    padding: 20px;
 }
 
 .imagens img {
-    width: 350px;
-    height: 350px;
+    width: 320px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+.imagens h5, p {
+    width: 320px;
+    margin: 0 auto;
+}
+
+.imagens h5 {
+    padding: 5px 0;
+    color: #5c4727;
+}
+
+.imagens p {
+    font-size: 13px;
+    color: #493c31;
+}
+
+/* Contatos */
+.contatos {
+    padding: 20px;
 }
 
 
