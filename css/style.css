@@ -1,3 +1,8 @@
+/*------- Página ---------*/
+* {
+    font-family: "Dancing Script", cursive;
+}
+
 /*-------Corpo--------*/
 body {
     background-color: #D3B786;
@@ -8,6 +13,18 @@ body {
     background-color: #770D15;
 }
 
+.menu li a, .navbar-brand {
+    color: #D3B786;
+}
+
+.navbar-brand:hover {
+    color: #D3B786;
+}
+
+.menu li a:hover {
+    color: #F9EEC9;
+}
+
 /* Home Page */
 /*------Carousel-------*/
 .slides {
@@ -16,6 +33,10 @@ body {
 
 .slides img {
     height: 700px;
+}
+
+.video {
+    padding: 30px;
 }
 
 /* Pizzas e Massas */
@@ -51,6 +72,11 @@ body {
     padding: 20px;
 }
 
+/*-------iFrame-------*/
+iframe {
+    display: block;
+    margin: 0 auto;
+}
 
 /*-------Footer--------*/
 #rodape {
@@ -60,6 +86,10 @@ body {
 
 .footer-1 {
     padding: 10px;
+}
+
+.menu-footer {
+    font-size: 25px;
 }
 
 .menu-footer ul{
@@ -77,12 +107,12 @@ body {
     display: inline-block;
     text-align: center;
     padding: 10px;
-    font-size: 18px;
 }
 
 .redes-sociais p {
     margin-bottom: 5px;
-    font-weight: bold;
+    font-weight: 700;
+    font-size: 25px;
 }
 
 .redes-sociais img {
