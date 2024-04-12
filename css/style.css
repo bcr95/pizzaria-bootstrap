@@ -1,14 +1,18 @@
-/*------- Página ---------*/
+/* Página */
 * {
     font-family: "Dancing Script", cursive;
 }
 
-/*-------Corpo--------*/
+/*-------------------------*/
+
+/* Corpo */
 body {
     background-color: #D3B786;
 }
 
-/*--------Menu--------*/
+/*-------------------------*/
+
+/* Menu */
 .menu {
     background-color: #770D15;
 }
@@ -17,6 +21,17 @@ body {
     color: #D3B786;
 }
 
+/*--Dropdown--*/
+.dropdown-menu {
+    background-color: #770D15;
+}
+
+.dropdown-item:hover{
+    background-color: #008000;
+    color: #D3B786;
+}
+
+/*--Nav--*/
 .navbar-brand:hover {
     color: #D3B786;
 }
@@ -25,8 +40,22 @@ body {
     color: #F9EEC9;
 }
 
+/*--Botão Pesquisar--*/
+.botao-pesquisar {
+    background-color: #770D15;
+    color: #D3B786;
+    border-color: #D3B786;
+}
+
+.botao-pesquisar:hover {
+    background-color: #008000;
+    color: #ffff00;
+}
+
+/*-------------------------*/
+
 /* Home Page */
-/*------Carousel-------*/
+/*--Carousel--*/
 .slides {
     height: 700px;
 }
@@ -35,12 +64,44 @@ body {
     height: 700px;
 }
 
+/*--Vídeo--*/
 .video {
     padding: 30px;
 }
 
+/*-------------------------*/
+
+/* Sobre */
+/*--Container sobre--*/
+.sobre {
+    padding: 20px;
+}
+
+.sobre h3 {
+    text-align: center;
+    padding: 0 0 10px 0;
+    font-weight: bold;
+}
+
+/*--Imagem--*/
+.pizzaria img {
+    width: 680px;
+    height: 380px;
+    display: block;
+    margin: 0 auto;
+}
+
+/*--Texto--*/
+.texto-sobre p {
+    padding: 20px 0 0 0;
+    width: 60%;
+    font-size: 20px;
+}
+
+/*-------------------------*/
+
 /* Pizzas e Massas */
-/*---Container Imagens---*/
+/*--Container Imagens--*/
 .imagens {
     padding: 20px;
 }
@@ -68,17 +129,31 @@ body {
 }
 
 /* Contatos */
+/*--Container Contatos--*/
 .contatos {
     padding: 20px;
 }
 
-/*-------iFrame-------*/
+/*--iFrame--*/
 iframe {
     display: block;
     margin: 0 auto;
 }
 
-/*-------Footer--------*/
+/*--Botao Enviar--*/
+.botao-enviar {
+    background-color: #770D15;
+    color: #D3B786;
+}
+
+.botao-enviar:hover {
+    background-color: #008000;
+    color: #ffff00;
+}
+
+/*-------------------------*/
+
+/*--Footer--*/
 #rodape {
     background-color: #770D15;
     color: #D3B786;
