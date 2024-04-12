@@ -18,7 +18,13 @@ body {
 }
 
 .menu li a, .navbar-brand {
+    font-size: 20px;
     color: #D3B786;
+}
+
+.menu img {
+    padding-right: 10px;
+    width: 50px;
 }
 
 /*--Dropdown--*/
